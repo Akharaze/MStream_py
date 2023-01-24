@@ -16,3 +16,12 @@ The preprocessed dateset of KDDCUP99 is dataset.csv
 The preprocessed dataset of  UNSW-NB 15 data2.csv
 
 
+
+## References
+<a id="1">[1]</a> 
+MSTREAM: Fast Anomaly Detection in Multi-Aspect Streams
+<<<<<<< HEAD
+Siddharth Bhatia, Arjit Jain, Pan Li, Ritesh Kumar, Bryan Hooi
+=======
+Siddharth Bhatia, Arjit Jain, Pan Li, Ritesh Kumar, Bryan Hooi
+>>>>>>> cef9589507fa52c3d68bad3cee02e45fd6fddedf
