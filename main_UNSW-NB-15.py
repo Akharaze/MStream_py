@@ -1,3 +1,4 @@
+#Execute code and print result for UNSW-NB 15
 from anom import * 
 import numpy as np
 import pandas as pd
@@ -5,7 +6,7 @@ from river import stream, metrics, preprocessing
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-data = pd.read_csv("data2.csv")
+data = pd.read_csv("Data\UNSW-NB-15.csv")
 
 columns = data.columns
 categ_label_time = ['1', '3', '5', '6', '14', '36', '39', '48','29', 'timestamp']
@@ -46,7 +47,7 @@ anomaly_detector = MStream(num_rows, num_buckets, factor, dimension1, dimension2
 
 auc = metrics.ROCAUC()
 scaler = preprocessing.Normalizer(order=2)
-for x, _ in stream.iter_csv('data2.csv'):
+for x, _ in stream.iter_csv('Data\UNSW-NB-15.csv'):
     numeric, categ, timestamp, y = preprocess(x)
     numeric = {k:val for k,val in enumerate(numeric)}
     numeric = scaler.transform_one(numeric)
