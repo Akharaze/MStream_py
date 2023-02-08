@@ -15,7 +15,7 @@ You can find the preprocessed datasets (KDDCUP99 - UNSW-NB15) in the folder Data
 
 ## Contributors
 - El-arni Maroua
-- Ghalas Ihsane
+- Ghalas Ihssane
 - Akharaze Chaimaa
 
 ## References
